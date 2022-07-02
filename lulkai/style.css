@@ -1,0 +1,27 @@
+.container-fluid {
+
+    padding-top: 5px;
+
+}
+nav{
+    border-bottom: 2px solid black ;
+    background-color: #ffff;
+}
+.separador-botones {
+
+    padding-top: 1rem;
+    flex-direction: column;
+
+}
+a {
+
+    text-decoration: none;
+    color: black;
+}
+.section1{
+    margin-top: 7rem;
+}
+.bodyImg{
+    margin-top: 7rem;
+    height: 40rem;
+}
