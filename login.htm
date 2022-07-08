@@ -9,6 +9,7 @@
             rel="stylesheet"
             integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
             crossorigin="anonymous">
+            <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.css">
         <link rel="stylesheet" href="style.css">
         <title>Document</title>
     </head>
@@ -103,12 +104,56 @@
                             </div>
                         </div>
                     </form>
-                </div>
-                <div class="col-md-6">
-                    <h3>Carrousell</h3>
-                </div>
+                </div> 
+            <div class="carousel col-md-6">
+                <div class="carouselContainer d-flex">
+                    <button aria-label="anterior" class="botonAnterior ">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z"/>
+                            </svg> 
+                    </button>
+                    <div class="listaCarousel">
+                        <div class="elementoCarousel">
+                            <img src="imagenes/mango.webp" alt="un mango" class="img-fluid">
+                            <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                        </div>
+                        <div class="elementoCarousel">
+                            <img src="imagenes/mototruco.webp" alt="un mango" class="img-fluid">
+                            <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                        </div>
+                        <div class="elementoCarousel">
+                            <img src="imagenes/chama.jpeg" alt="un mango" class="img-fluid">
+                            <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                        </div>
+                        <div class="elementoCarousel">
+                            <img src="imagenes/montania.jpeg" alt="un mango" class="img-fluid">
+                            <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                        </div>
+                        <div class="elementoCarousel">
+                            <img src="imagenes/porlacalle.jpeg" alt="un mango" class="img-fluid">
+                            <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                        </div>
+                        <div class="elementoCarousel">
+                            <img src="imagenes/saltoangel.jpeg" alt="un mango" class="img-fluid">
+                            <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                        </div>
+                        <div class="elementoCarousel">
+                            <img src="imagenes/trenaesteti.webp" alt="un mango" class="img-fluid">
+                            <p class="text-center lead">KaiLu es el mejor sitio para almacenar tus datos</p>
+                        </div>       
+                    </div>
+                    <button aria-label="siguiente" class="botonSiguiente">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                            </svg>
+                    </button>        
+                    
+                </div> 
+                <div role="tablist" id="dots"></div>
+            </div>      
             </div>
-
         </section>
+        <script src="https://cdn.jsdelivr.net/npm/glider-js@1.7.3/glider.min.js"></script>
+        <script src="login.js"></script>
     </body>
 </html>

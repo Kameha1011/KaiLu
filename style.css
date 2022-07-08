@@ -62,3 +62,13 @@ nav{
     border: 1px solid rgb(122, 2, 2);
     box-shadow: none;
 }
+.listaCarousel{
+    height: 540px;
+    width: 480px;
+}
+.listaCarousel img{
+    height: 500px;
+}
+.carouselContainer button{
+    border: none;
+}
