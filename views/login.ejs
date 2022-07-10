@@ -1,0 +1,128 @@
+<%- include('partials/nav') %> 
+<section class="container loginMain">
+    <div class="row ">
+        <div class="col-md-6">
+            <h2 class="mb-5">Crea Tu Cuenta Gratis</h2>
+            <form action="#" method="post" class="form-group">
+                <div class="row">
+
+                    <div class="col-md-4">
+                        <input
+                            type="text"
+                            readonly="readonly"
+                            class="form-control"
+                            placeholder="Nombre">
+                    </div>
+
+                    <div class="col-md-4">
+                        <input
+                            type="text"
+                            class="form-control"
+                            placeholder="Apellido">
+                    </div>
+                </div>
+                <div class="mb-3 row mt-3">
+
+                    <div class="col-md-7">
+                        <input
+                            type="text"
+                            readonly="readonly"
+                            class="form-control"
+                            id="staticEmail"
+                            placeholder="email@example.com">
+                    </div>
+                </div>
+                <div class="mb-3 row">
+
+                    <div class="col-md-7">
+                        <input
+                            type="password"
+                            class="form-control"
+                            id="inputPassword"
+                            placeholder="password">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-1 mt-3">
+                        <input type="checkbox">
+                    </div>
+                    <div class="col-md-6 mt-3">
+                        <p class="">Entiendo que si olvido mi contraseña, puedo perder mis datos. Más
+                            información sobre el cifrado punto a punto de KaiLu</p>
+                    </div>
+
+                </div>
+
+                <div class="row">
+                    <div class="col-md-1 mt-3">
+                        <input type="checkbox">
+                    </div>
+                    <div class="col-md-3 mt-3">
+                        <p class="">Aceptar
+                            <a href="#">Terminos y Condiciones</a>
+                            .</p>
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-danger">Crear cuenta!</button>
+
+                <div class="row ">
+                    <div class="col-md-6 bg-dark darkP">
+                        <p>¿Ya tienes una cuenta?
+                            <a href="#">Iniciar Sesión</a>
+                        </p>
+                    </div>
+                </div>
+            </form>
+        </div> 
+    <div class="carousel col-md-6">
+        <div class="carouselContainer d-flex">
+            <button aria-label="anterior" class="botonAnterior ">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-left" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M9.224 1.553a.5.5 0 0 1 .223.67L6.56 8l2.888 5.776a.5.5 0 1 1-.894.448l-3-6a.5.5 0 0 1 0-.448l3-6a.5.5 0 0 1 .67-.223z"/>
+                    </svg> 
+            </button>
+            <div class="listaCarousel">
+                <div class="elementoCarousel">
+                    <img src="imagenes/mango.webp" alt="un mango" class="img-fluid">
+                    <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                </div>
+                <div class="elementoCarousel">
+                    <img src="imagenes/mototruco.webp" alt="un mango" class="img-fluid">
+                    <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                </div>
+                <div class="elementoCarousel">
+                    <img src="imagenes/chama.jpeg" alt="un mango" class="img-fluid">
+                    <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                </div>
+                <div class="elementoCarousel">
+                    <img src="imagenes/montania.jpeg" alt="un mango" class="img-fluid">
+                    <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                </div>
+                <div class="elementoCarousel">
+                    <img src="imagenes/porlacalle.jpeg" alt="un mango" class="img-fluid">
+                    <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                </div>
+                <div class="elementoCarousel">
+                    <img src="imagenes/saltoangel.jpeg" alt="un mango" class="img-fluid">
+                    <p class='text-center lead'>KaiLu es el mejor sitio para almacenar tus datos</p>
+                </div>
+                <div class="elementoCarousel">
+                    <img src="imagenes/trenaesteti.webp" alt="un mango" class="img-fluid">
+                    <p class="text-center lead">KaiLu es el mejor sitio para almacenar tus datos</p>
+                </div>       
+            </div>
+            <button aria-label="siguiente" class="botonSiguiente">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-compact-right" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M6.776 1.553a.5.5 0 0 1 .671.223l3 6a.5.5 0 0 1 0 .448l-3 6a.5.5 0 1 1-.894-.448L9.44 8 6.553 2.224a.5.5 0 0 1 .223-.671z"/>
+                    </svg>
+            </button>        
+            
+        </div> 
+        <div role="tablist" id="dots"></div>
+    </div>      
+    </div>
+</section>
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script src="js/login.js"></script>
+</body>
+</html>
