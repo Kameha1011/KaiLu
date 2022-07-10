@@ -5,7 +5,10 @@ window.addEventListener('load', function(){
         prev: '.botonAnterior',
         next: '.botonSiguiente'
       } ,
-      dots: '#dots'
+      dots: '#dots',
+      scrollLock: true,
+      scrollLockDelay: 50,
+      rewind: true
 
     })
   })
